@@ -1,0 +1,30 @@
+{
+  "name": "@fundxgrid/stacks-core",
+  "version": "1.0.0",
+  "description": "Shared Stacks blockchain utilities for FundX and Chessify SDKs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "sdk",
+    "web3",
+    "bitcoin"
+  ],
+  "author": "jadonamite <jadonamite@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@stacks/network": "^6.17.0",
+    "@stacks/transactions": "^6.17.0"
+  }
+}
