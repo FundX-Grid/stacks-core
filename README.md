@@ -1,6 +1,7 @@
 # @fundxgrid/stacks-core
 
-[![npm version](https://img.shields.io/npm/v/@fundxgrid/stacks-core.svg)](https://www.npmjs.com/package/@fundxgrid/stacks-core)
+[![npm downloads](https://img.shields.io/npm/dm/@jadonamite/stacks-core)](https://www.npmjs.com/package/@jadonamite/stacks-core)
+[![npm version](https://img.shields.io/npm/v/@jadonamite/stacks-core.svg)](https://www.npmjs.com/package/@jadonamite/stacks-core)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -20,17 +21,17 @@ This package requires Stacks core libraries as **peer dependencies**. You must i
 
 ### npm
 ```bash
-npm install @fundx-grid/stacks-core @stacks/network @stacks/transactions
+npm install @jadonamite/stacks-core @stacks/network @stacks/transactions
 ```
 
 ### yarn
 ```bash
-yarn add @fundx-grid/stacks-core @stacks/network @stacks/transactions
+yarn add @jadonamite/stacks-core @stacks/network @stacks/transactions
 ```
 
 ### pnpm
 ```bash
-pnpm add @fundx-grid/stacks-core @stacks/network @stacks/transactions
+pnpm add @jadonamite/stacks-core @stacks/network @stacks/transactions
 ```
 
 ## 💻 Quick Start
@@ -38,7 +39,7 @@ pnpm add @fundx-grid/stacks-core @stacks/network @stacks/transactions
 Initialize the core client by passing in your desired network configuration. The client will automatically resolve the correct Hiro API URLs.
 
 ```typescript
-import { StacksClient } from '@fundxgrid/stacks-core';
+import { StacksClient } from '@jadonamite/stacks-core';
 
 // Initialize for Mainnet
 const client = new StacksClient({ network: 'mainnet' });
@@ -57,7 +58,7 @@ const devClient = new StacksClient({
 The client provides abstracted methods for standard on-chain queries. Always ensure you are handling potential network errors in production environments.
 
 ```typescript
-import { StacksClient } from '@fundx-grid/stacks-core';
+import { StacksClient } from '@jadonamite/stacks-core';
 
 async function fetchUserBalance(walletAddress: string) {
   const client = new StacksClient({ network: 'mainnet' });
@@ -83,7 +84,7 @@ The primary class for interacting with the Stacks network.
 ### `NETWORKS`
 A constant record containing the default API URLs for Hiro's public nodes.
 ```typescript
-import { NETWORKS } from '@fundxgrid/stacks-core';
+import { NETWORKS } from '@jadonamite/stacks-core';
 
 console.log(NETWORKS.testnet); // '[https://api.testnet.hiro.so](https://api.testnet.hiro.so)'
 ```
