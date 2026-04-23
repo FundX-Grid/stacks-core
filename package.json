@@ -1,6 +1,6 @@
 {
   "name": "@jadonamite/stacks-core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Production-grade shared Stacks blockchain utilities. Provides core bindings for transaction building, network configuration, and contract interaction on Stacks.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

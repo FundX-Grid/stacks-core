@@ -1,4 +1,4 @@
-# @fundxgrid/stacks-core
+# @jadonamite/stacks-core
 
 [![npm downloads](https://img.shields.io/npm/dm/@jadonamite/stacks-core)](https://www.npmjs.com/package/@jadonamite/stacks-core)
 [![npm version](https://img.shields.io/npm/v/@jadonamite/stacks-core.svg)](https://www.npmjs.com/package/@jadonamite/stacks-core)
